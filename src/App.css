@@ -1,0 +1,74 @@
+#container{
+  width: 50vh;
+  height: 50vh;
+  margin: auto;
+  border: 1px solid black;
+  position: relative; /* Add this line */
+}
+
+#bg{
+  height: 20vh;
+  background-image: url("./assets/bg.jpg");
+}
+
+#info{
+  position: relative;
+  margin-top: -10vh;
+  margin-left: 11vh;
+  margin-bottom: 20px;
+
+  width: 27vh;
+  justify-content: center;
+  align-items: center;   display: flex;
+  flex-direction: column;
+}
+
+#circle-avatar{
+  height: 15vh;
+  width: 15vh;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+p{
+  margin: 0;
+}
+
+#title{
+  font-weight: 900;
+  font-size: 25px;
+}
+#age{
+  font-size: 20px;
+  color: gray;
+}
+#address{
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+
+#t1{
+  font-weight: 900;
+  font-size: 25px;
+}
+#t2{
+  font-size: 20px;
+  color: gray;
+}
+
+
+#status-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:  5px 10px;
+}
+
+#vtext{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
