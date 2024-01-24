@@ -1,12 +1,16 @@
 import { useRecoilValue } from "recoil"
-import { userAtom } from "./atoms/userDetailsArom"
+import { userAtom, userNameAtom } from "./atoms/userDetailsArom"
+import { useEffect } from "react";
 
 export default function DisplayProfile() {
-
     const user = useRecoilValue(userAtom);
 
+    useEffect(()=>{
+        
+    },[useRecoilValue(userNameAtom),user]);
+
     return (
-    <div id="container">
+    <div id="user-card">
       <div id="bg">
       </div>
     

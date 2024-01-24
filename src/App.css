@@ -1,9 +1,19 @@
 #container{
   width: 50vh;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#user-card{
+  width: 50vh;
   height: 50vh;
   margin: auto;
   border: 1px solid black;
-  position: relative; /* Add this line */
+  position: relative;
+  border-radius: 10px; 
 }
 
 #bg{
@@ -71,4 +81,20 @@ p{
   flex: 1;
   flex-direction: column;
   align-items: center;
+}
+
+#userInput{
+  padding: 20px;
+  font-size: larger;
+  width: auto;
+  border-radius: 10px;
+}
+
+button{
+  margin: 10px;
+  align-self: center;
+  padding: 10px 20px ;
+  font-size: larger;
+  background-color: lightblue;
+  border-radius: 10px;
 }
